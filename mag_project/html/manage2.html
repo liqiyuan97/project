@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后台</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../Font-Awesome-3.2.1/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../buttons.css">
+  <link rel="stylesheet" type="text/css" href="../css/general.css">
+  <link rel="stylesheet" type="text/css" href="../css/manage.css">
+</head>
+<body>
+	<div class="manage">
+		<div class="manage-title clearfix content">
+			<p class="pull-left p1">MANAGE</p>
+			<div class="pull-left">
+				<ul class="tab-list clearfix">
+					<li class="active"><a href="#tab-1" class="tab-control button button-glow button-border button-rounded button-primary">菜单信息</a></li>
+					<li><a href="#tab-2" class="tab-control button button-glow button-border button-rounded button-primary">订单管理</a></li>
+					<li><a href="#tab-3" class="tab-control button button-glow button-border button-rounded button-primary">账单管理</a></li>
+				</ul>
+			</div>
+      <form class="form pull-right">
+        <div class="form-group">
+          <div class="input-group">
+            <input class="form-control" type="text" placeholder="">
+            <div class="input-group-addon">
+              <a href="javascript:;"><i class="glyphicon glyphicon-search"></i></a>
+            </div>
+          </div>
+        </div>
+      </form>
+		</div>
+		<div class="manage-content content">
+			<div class="active tab-panel" id="tab-1">
+				<div class="tab1"></div>
+				<div class="pull-left dishes-area">
+          <img src="../tp/a.jpg">
+          <h3>￥13.00 </h3>
+          <P>菜品文字信息 菜品4</P>
+          <a href="javascript:;" class="button button-3d button-action button-pill">下单</a>
+        </div>
+        <div class="pull-left dishes-area">
+          <img src="../tp/a.jpg">
+          <h3>￥13.00 </h3>
+          <P>菜品文字信息 菜品4</P>
+          <a href="javascript:;" class="button button-3d button-action button-pill">下单</a>
+        </div>
+			</div>
+			<div class="tab-panel clearfix" id="tab-2">
+				<div class="tab2"></div>
+				<form class="form-2">
+	        <div class="form-group">
+	          <div class="input-group">
+	            <input class="form-control" type="text" placeholder="查询订单">
+	            <div class="input-group-addon">
+	              <a href="javascript:;"><i class="glyphicon glyphicon-search"></i></a>
+	            </div>
+	          </div>
+	        </div>
+	      </form>
+				<div class="screen-navbar2">
+				  <div class="button-group">
+				    <button type="button" class="button button-pill button-action">查询本周</button>
+				    <button type="button" class="button button-pill button-action">查询上周</button>
+				    <button type="button" class="button button-pill button-action">查询当月</button>
+				  </div>
+				</div>
+				<div class="cart-top clearfix">
+	  			<div class="top-left pull-left">
+	  				<span class="span2">订单信息</span>
+	  			</div>
+	  			<div class="top-right pull-right">
+	  				<span class="span1">数量</span>
+	  				<span class="span1">金额</span>
+	  			</div>
+  			</div>
+				<div class="order">
+					<div class="order-title clearfix">
+						<div class="order-title-left pull-left">订单日期 <span class="bianhao">000000000</span></div>
+						<div class="order-title-right pull-right">用户 <span class="user">xxxxx</span></div>
+					</div>
+					<div class="Order clearfix">
+	  				<img src="../tp/a.jpg" class="Order-img">
+	  				<span class="span3">菜品1</span>
+	  				<div class="Order-right pull-right">
+	  					<span class="span1 pay">代付</span>
+	  					<span class="span1">1</span>
+	  					<span class="span1">00</span>
+	  				</div>
+	  			</div>
+  			</div>
+			</div>
+			<div class="tab-panel" id="tab-3">
+				<div class="tab3"></div>
+				<form class="form-2">
+	        <div class="form-group">
+	          <div class="input-group">
+	            <input class="form-control" type="text" placeholder="查看消费账单">
+	            <div class="input-group-addon">
+	              <a href="javascript:;"><i class="glyphicon glyphicon-search"></i></a>
+	            </div>
+	          </div>
+	        </div>
+	      </form>
+	      <div class="screen-navbar">
+				  <div class="button-group">
+				    <button type="button" class="button button-pill button-action">本周查询</button>
+				    <button type="button" class="button button-pill button-action">上周查询</button>
+				    <button type="button" class="button button-pill button-action">当月查询</button>
+				  </div>
+				</div>
+	      <div class="pull-left" style="width: 50%;">
+					<h3>查看消费情况</h3>
+					<div class="tab2-title clearfix">
+						<div class="tab2-title-left pull-left">总消费</div>
+						<div class="tab2-title-right pull-right">-00.00</div>
+						<div></div>
+					</div>
+					<div style="width: 55%">
+	  				<canvas id="myChart"></canvas>
+					</div>
+		  	</div>
+				<div class="pull-left" style="width: 50%">
+					<h4>代付消费情况</h4>
+					<div class="tab2-title clearfix">
+						<div class="tab2-title-left pull-left">须向 <span class="daifu">xxx</span> 支付</div>
+						<div class="tab2-title-right pull-right">-00.00</div>
+					</div>
+					<div style="width: 55%">
+	  				<canvas id="myChart2"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="tab-panel" id="tab-4">
+				<div class="tab4"></div>
+			</div>
+		</div>
+		<div class="manage-left"></div>
+	</div>
+</div>
+
+
+	<script src="../jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="../Chart.js"></script>
+	<script type="text/javascript" src="../js/manage.js"></script>
+	<script type="text/javascript" src="../js/graph.js"></script>
+</body>
+</html>

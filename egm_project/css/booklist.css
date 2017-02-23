@@ -1,0 +1,112 @@
+body{
+  background-color: #fff;
+}
+
+.thread{
+  margin-top: 53px;
+  padding: 130px 140px;
+}
+
+.thread_font1{
+  font-weight: 700;
+  color: #384047;
+}
+
+.thread_span{
+  padding: 1px 6px;
+  background-color: #5fcf80;
+  color: white;
+  border-radius: 3px;
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.wrapper_content h2{
+  text-align: center;
+}
+
+.lessons_list{
+  padding: 40px 10%;
+  padding-top: 10px;
+}
+
+.lessons_sort{
+  padding: 15px 20px;
+  background-color: #f1f2f2;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lessons_sort a{
+  margin-right: 6px;
+}
+
+.lessons_area .l_row{
+  border-bottom: 1px solid #c4c9ca;
+  padding: 10px 0;
+}
+
+.lessons_list .l_title{
+  padding: 0 15px;
+}
+
+.lessons_area .l_title a{
+  color: #384047;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+a.lesson_tag{
+  margin: 2px 2px;
+  padding: 2px 5px;
+  background-color: #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+a.serial{
+  background-color: #5fcf80;
+  color: white;
+}
+
+.lessons_area .l_icon {
+  padding-left: 0;
+  width: 4.3%;
+}
+
+.l_icon .rb_img{
+  padding-left: 10px;
+}
+
+.l_duration{
+  text-align: right;
+}
+
+.badge{
+  border-radius: 2px;
+  padding: 2px 2px;
+  position: absolute;
+  margin-left: 3px;
+  background-color: #5fcf80;
+  font-weight: 300;
+}
+
+.l_duration{
+  color: #7b8b8e;
+}
+
+.submit{
+  background-color: #5fcf80;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-top: 50px;
+}
+
+.lessons_area .l_rowz{
+  border-bottom: 1px solid #fff;
+}

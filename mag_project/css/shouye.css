@@ -1,0 +1,202 @@
+@media only screen and (max-width: 800px){
+  body .dishes-area{
+    width: 100%;
+  }
+}
+
+
+/*滚屏*/
+.banner{
+  background: url(http://pic.90sjimg.com/back_pic/qk/back_origin_pic/00/02/11/cf21d6e65d575bbffe78a2c87ab7fbd6.jpg);
+}
+
+.banner_area{
+  position: relative;
+}
+
+.tu img{
+  width: 100%;
+  height: 416px;
+  position: absolute;
+}
+
+.ups{
+  display: none;
+}
+
+.fl_s{
+  height: 416px;
+}
+
+.btn_left{
+  background-color: rgba(0,0,0,.3);
+  padding: 20px 10px;
+  position: absolute;
+  top: 171px;
+  left: 0;
+}
+
+.btn_left i{
+  font-size: 40px;
+}
+
+.btn_right{
+  background-color: rgba(0,0,0,.3);
+  padding: 20px 10px;
+  position: absolute;
+  top: 171px;
+  right: 0;
+}
+
+.btn_right i{
+  font-size: 40px;
+}
+
+.dos{
+  position: absolute;
+  top: 381px;
+  left: 499px;
+}
+
+.dor .doro{
+  padding: 6px;
+  background-color: #eeeeee ;
+  border-radius: 10px;
+  margin-right: 22px;
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+}
+
+.dor .dors{
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: -5px;
+  line-height: 17px;
+  border: 3px solid #fff;
+  background: 0;
+}
+
+/**/
+.form{
+  width: 60%;
+  margin: auto;
+}
+
+.form .glyphicon-search{
+  color: #555;
+}
+
+.search{
+  padding: 20px;
+  background-color: rgba(0,0,0,.1);
+}
+
+.banner{
+  padding: 20px;
+}
+
+.dishes-area{
+  padding: 20px;
+  width: 25%;
+}
+
+.dishes-area img{
+  width: 250px;
+  height: 250px;
+}
+
+.dishes-area h3{
+  color: #e4393c;
+}
+
+.h1-1{
+  background-image: linear-gradient(to right, #6CA6CD 0%, #63B8FF 34%, #40E0D0 82%);
+}
+
+.h1-right{
+  font-size: 16px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.h1-2{
+  background-image: linear-gradient(to right, #c27ba0 0%, #e06666 34%, #7e5168 82%);
+}
+
+.yinying{
+  box-shadow: 0px 1px 8px #a0a0a0;
+}
+
+.form-control{
+  height: 45px;
+}
+
+.dishes-p{
+  color: #fff;
+  font-size: 30px;
+  padding: 5px 0 5px 30px;
+  margin: 10px 0;
+  border-top-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+}
+
+
+
+/*右侧导航栏*/
+.right-navbar{
+  position: fixed;
+  height: 100%;
+  width: 10px;
+  background-color: #ab837b;
+  right: 0;
+  top: 0;
+  color: white;
+}
+
+.rn-p{
+  width: 93px;
+}
+
+.rn-p .span{
+  margin-right: 7px;
+}
+
+.i-size{
+  font-size: 19px;
+  top: 4px;
+}
+
+.rn-2{
+  bottom: 120px;
+}
+
+.rn-1{
+  top: 200px;
+}
+
+.rn-3{
+  top: 158px;
+}
+
+.rn-4{
+  top: 242px;
+}
+
+.rn-5{
+  top: 283px;
+}
+
+.rn-{
+  position: absolute;
+  padding: 4px 2px 0 2px;
+  right: 10px;
+  width: 30px;
+  background-color: #ab837b;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  direction: rtl;
+  overflow: hidden;
+}
+/**/

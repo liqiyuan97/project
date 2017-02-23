@@ -1,0 +1,193 @@
+body{
+	color: white;
+	background-color: #768479;
+	background-color: rgba(0,0,0,.7);
+	/* background-image: linear-gradient(to right, #0F0F0F 3%, #343030 21%, #262627 59%); */
+}
+
+
+.manage .p1{
+	font-size: 32px;
+}
+
+.manage ul{
+	margin-top: 3px;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	font-size: 22px;
+}
+
+.cart-top{
+	margin-top: 10px;
+}
+
+.manage-title{
+	padding-top: 80px;
+
+}
+
+.form{
+	width: 20%;
+	margin-top: 6px;
+	opacity: 0.9;
+}
+
+.form-control{
+	opacity: 0.9;
+}
+
+.form-group{
+	margin-bottom: 0;
+}
+
+
+
+
+.tab-panel{
+	display: none;
+}
+
+.tab-panel.active{
+	display: block;
+}
+
+.tab-panel{
+	position: relative;
+	padding: 20px;
+	border-top: 4px solid #EE9A00;
+}
+
+
+.tab1{
+	left: 195px;
+	top: -4px;
+	padding: 0 72px;
+	position: absolute;
+	border-top: 4px solid #FF4351;
+}
+
+.tab2{
+	left: 354px;
+	top: -4px;
+	padding: 0 70px;
+	position: absolute;
+	border-top: 4px solid #FF4351;
+}
+
+.tab3{
+	left: 511px;
+	top: -4px;
+	padding: 0 72px;
+	position: absolute;
+	border-top: 4px solid #FF4351;
+}
+
+.tab4{
+	right: 378px;
+	top: -4px;
+	padding: 0 70px;
+	position: absolute;
+	border-top: 4px solid #FF4351;
+}
+
+.tab2-title{
+	width: 40%;
+}
+
+.form-2{
+	width: 20%;
+}
+
+
+
+
+
+/*订单*/
+.top-right .span1{
+	margin-right: 115px;
+}
+
+.Order-img{
+	width: 70px;
+}
+
+.Order{
+	padding: 20px 8px;
+	border: 1px solid #EE9A00;
+}
+
+.Order .span1{
+	margin-right: 120px;
+}
+
+.Order .span2{
+	margin-right: 50px;
+}
+
+.Order-right{
+	margin-top: 9px;
+}
+
+.Order .span3{
+	margin-left: 20px;
+}
+
+.order-title{
+	padding: 10px;
+	color: #FF4351;
+}
+
+.order{
+	margin: 25px 0;
+}
+
+.pay{
+	color: white;
+	padding: 10px;
+	background-color: #FF4351;
+	border-radius: 4px;
+}
+
+
+/*菜单*/
+.dishes-area{
+  padding: 20px;
+  width: 25%;
+}
+
+.dishes-area img{
+  width: 250px;
+  height: 250px;
+}
+
+.dishes-area h3{
+  color: #FF4351;
+}
+
+.yinying{
+  box-shadow: 0px 1px 8px #a0a0a0;
+}
+
+
+/**/
+.screen-navbar{
+	width: 38%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.screen-navbar2{
+	width: 38%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+
+/**/
+/*.button-action{
+	background-color: #EE9A00;
+}*/

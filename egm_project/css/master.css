@@ -1,0 +1,155 @@
+@media only screen and (max-width: 800px){
+  body .h1 .span{
+    display: none;
+  }
+
+  body .introduce_rank .h1{
+    font-size: 36px;
+  }
+
+  body .l_icon .rb_img{
+    padding-left: 0;
+  }
+
+  body .video_left{
+    padding-left: 0;
+  }
+}
+
+
+body{
+  background-color: #fff;
+}
+
+.introduce{
+  background-color: #7b8b8e;
+}
+
+.introduce_rank{
+  background-color: #7b8b8e;
+  padding: 120px 0;
+  position: relative;
+}
+
+.introduce_rank .h1{
+  font-size: 70px;
+  color: #1F1F1F;
+  position: relative;
+}
+
+.h1 .span{
+  font-size: 24px;
+  padding: 10px;
+  background-color: #5fcf80;
+  border-radius: 6px;
+  position: absolute;
+  margin-top: -12px;
+}
+
+.introduce_rank p{
+  color: #333;
+}
+
+.introduce_rank .itd_color1{
+  color: #050505;
+}
+
+
+
+
+
+
+/*通用课程列表样式*/
+
+.wrapper_content{
+  padding: 50px 0 ;
+}
+
+.wrapper_content h2{
+  text-align: center;
+}
+
+.lessons_list{
+  padding: 40px 10%;
+  padding-top: 10px;
+}
+
+.lessons_sort{
+  padding: 15px 20px;
+  background-color: #f1f2f2;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lessons_sort a{
+  margin-right: 6px;
+}
+
+.lessons_area .l_row{
+  border-bottom: 1px solid #c4c9ca;
+  padding: 10px 0;
+}
+
+.lessons_list .l_title{
+  padding: 0 15px;
+}
+
+.lessons_area .l_title a{
+  color: #384047;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+a.lesson_tag{
+  margin: 2px 2px;
+  padding: 2px 5px;
+  background-color: #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+a.serial{
+  background-color: #5fcf80;
+  color: white;
+}
+
+.lessons_area .l_icon {
+  padding-left: 0;
+}
+
+.l_icon .rb_img{
+  padding-left: 10px;
+}
+
+.l_duration{
+  text-align: right;
+}
+
+.badge{
+  border-radius: 2px;
+  padding: 2px 2px;
+  position: absolute;
+  margin-left: 3px;
+  background-color: #d2d4d3;
+  font-weight: 300;
+}
+
+.l_duration{
+  color: #7b8b8e;
+}
+
+.submit{
+  background-color: #d2d4d3;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-top: 50px;
+}
+
+.lessons_area .l_rowz{
+  border-bottom: 1px solid #fff;
+}

@@ -1,0 +1,90 @@
+a{
+	text-decoration: none;
+}
+
+
+/*菜品订单*/
+
+.list{
+	width: 100%;
+}
+
+.headline{
+	width: 100%;
+	margin-left: 20%;
+	position: relative;
+}
+
+.order_content{
+	position: relative;
+	background-color: white;
+	width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.option{
+	border-bottom: 1px solid black;
+	width: 100%;
+	font-size: 20pt;
+	font-family: "黑体";
+	padding: 15px;
+}
+
+.return{
+	margin-left: 88%;
+	font-size: 12pt;
+}
+
+.order_information{
+	background-color: #ccc;
+	padding: 15px;
+	margin-top: 15px;
+	width: 100%;
+	height: 50px;
+	font-family: "黑体";
+	font-size: 15pt;
+}
+
+.order_number{
+	font-size: 15px;
+	font-family: "黑体";
+	padding: 15px;	
+	margin: 20px 0px;
+	border: 1px solid #ccc;
+}
+
+.number{
+	float: left;
+}
+
+.a{
+	margin-left: 100px;
+}
+
+.group{
+	background-color: #ccc;
+	padding: 15px;
+	width: 100%;
+	height: 50px;
+	font-family: "黑体";
+	font-size: 15pt;
+}
+
+.img{
+	width: 100px;
+}
+
+.information1{
+	float: left;
+}
+
+.b{
+	margin-left: 205px;
+	margin-top: 45px;
+}
+
+.c{
+	margin-top: 45px;
+	margin-left: 20px;
+}

@@ -1,0 +1,28 @@
+.wrapper{
+  background-color: #fff;
+  margin-top: 53px;
+}
+
+.wrapper_area{
+  padding: 50px 200px;
+}
+
+.wrapper_area_rank{
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 35px 35px;
+}
+
+.war_title a{
+  padding: 15px;
+}
+
+.war_content{
+  padding: 25px 30px;
+  background-color: #fff;
+  margin-top: 13px;
+}
+
+.war_title .war_a_4{
+  background-color: #fff;
+}

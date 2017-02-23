@@ -1,0 +1,48 @@
+body{
+  color: white;
+  padding: 200px 0;
+  background-image: linear-gradient(to right, #6CA6CD 0%, #63B8FF 34%, #40E0D0 82%);
+}
+
+.login-area{
+  margin: auto;
+  width: 20%;
+  text-align: center;
+}
+
+.login-area .form-group{
+  display: block;
+}
+
+.login-area .form-control{
+  width: 100%;
+}
+
+.form-group{
+  margin-top: 20px;
+}
+
+.login-area .button-glow{
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px 0;
+  font-size: 14px;
+  height: 34px;
+  line-height: 25px;
+  background-color: #FF6347
+  border-color: #CD3700;
+}
+
+h4{
+  margin-top: 20px;
+}
+
+.login-area input{
+  background-color: rgba(0,0,0,.3);
+}
+
+.login-area p i{
+  font-size: 18px;
+  margin-left: 4px;
+  margin-right: 4px;
+}

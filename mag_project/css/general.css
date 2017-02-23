@@ -1,0 +1,89 @@
+@media only screen and (max-width: 800px){
+  body .content{
+    width: 100%;
+  }
+
+  body .navbar-{
+    height: 60px;
+  }
+
+  body .navbar-area{
+    width: 100%;
+  }
+
+  body .logo{
+    margin-left: 0;
+  }
+
+  body .sanjiao{
+    left: 106px;
+  }
+
+  body .na-right{
+    margin-top: 0;
+  }
+}
+
+
+a{
+  color: #999;
+}
+
+.content{
+  width: 1190px;
+  margin: auto;
+  /* background: silver;
+  background: linear-gradient(to right, silver, black); */
+}
+/*导航*/
+.sanjiao{
+  border-width:0px 0 26px 9px;
+  border-style:solid;
+  border-color:transparent transparent transparent #CD0000;
+  position:absolute;
+  left: 141px;
+  top: 12px;
+  background-color: #fff;
+}
+
+
+.navbar-{
+  height: 50px;
+  border-top: 2px solid #CD0000;
+  box-shadow: 0px 1px 8px #a0a0a0;
+}
+
+.navbar-area{
+  width: 500px;
+}
+
+.pr-i{
+  border-left: 2px solid #eeeeee;
+  width: 1px;
+  height: 10px;
+  margin: 0  10px;
+}
+
+.pr-a{
+  font-size: 15px;
+}
+
+.na-right{
+  margin-top: 12px;
+}
+
+.logo{
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 3px 5px;
+  background-image: linear-gradient(to right, #CD0000, #e06666 34%, #CD0000 82%);
+  color: white;
+  border-width:30px 0 30px 30px;
+}
+
+.logo-{
+  margin-top: 13px;
+  margin-left: 8px;
+  font-weight: 600;
+}
+

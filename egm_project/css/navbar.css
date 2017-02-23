@@ -1,0 +1,343 @@
+@media only screen and (max-width: 800px){
+
+body .content{
+  width: 100%;
+}
+
+.navbar .logo{
+  width: 96px;
+}
+
+.navbar .title{
+  display: none;
+}
+
+.navbar .area .rank{
+  display: none;
+}
+
+.title_right2{
+  display: none;
+}
+
+.navbar .title_right3{
+  display: block;
+}
+
+.wrapper .wrapper_area{
+  padding: 50px 0;
+}
+
+body .wrapper_area_rank{
+  padding: 35px 0;
+}
+
+}
+
+
+
+body{
+  background-color: #eee;
+}
+/*导航*/
+a{
+  color: #7b8b8e;
+}
+
+p{
+  color: #7b8b8e;
+}
+
+.content{
+  width: 1182px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  border-radius: 0px;
+  top: 0;
+  z-index: +1;
+  margin-bottom: 0;
+}
+
+.navbar .area{
+  padding: 0 6px;
+}
+
+.navbar .title a{
+  font-weight: 600;
+}
+
+.yinying{
+  box-shadow: 0px 1px 8px #a0a0a0;
+}
+
+.logo{
+  width: 8%;
+  margin-top: 4px;
+}
+
+
+
+.navbar .title{
+  margin-top: 13px;
+}
+
+.navbar .aaa{
+  margin-left: 25px;
+
+}
+
+.navbar .active{
+  background-color: #5fcf80;
+  border-color: #5fcf80;
+}
+
+.navbar .rank{
+  margin-top: 9px;
+  display: block;
+}
+
+.rank .active{
+  margin-left: 10px;
+  color: #fff;
+  padding: 4px 12px;
+}
+
+.uuu{
+  margin-left: 32px;
+  position: relative;
+}
+
+.navbar .title .zzz{
+  width: 0px;
+  border-radius: 20px;
+  border: 1px solid #7b8b8e;
+  padding: 5px 12px;
+  margin-top: -7px;
+  visibility: hidden;
+}
+
+.zza{
+  position: absolute;
+}
+
+
+
+/*页脚*/
+.introduce_area{
+  background-color: #F1F2F2;
+}
+.signature{
+  border-bottom: 1px solid white;
+}
+
+.signature_a{
+  padding: 10px 0;
+}
+
+.signature_a a{
+  padding: 0 10px;
+}
+
+.signature .area{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weixin {
+  margin-top: 20px;
+  position: relative;
+}
+
+.weixin .fa{
+  font-size: 16px;
+}
+
+.qq{
+  margin-left: 32px;
+}
+
+.las{
+  position: absolute;
+  top: -206px;
+  margin-left: -73px;
+  padding: 15px;
+  text-align: left;
+  background-color: #333;
+  visibility: hidden;
+}
+
+.las p{
+  font-size: 10px;
+  margin: 2px 0;
+}
+
+.sanjiao{
+  visibility: hidden;
+  top: -29px;
+  position: absolute;
+  width:0;
+  height:0;
+  border-width:12px 15px 0;
+  border-style:solid;
+  border-color:#333 transparent transparent;/*灰 透明 透明 */
+  position:relative;
+}
+
+.qun{
+  visibility: hidden;
+  top: -44px;
+  margin-left: -40px;
+  position: absolute;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 13px;
+}
+
+/*回顶*/
+.huiding{
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  width: 15px;
+  height: 15px;
+  z-index: +1;
+}
+
+
+/*个人中心*/
+.title_right2{
+  display: none;
+  margin-top: 14px;
+  position: relative;
+}
+
+.title_right2_a1{
+  padding: 5px 8px;
+  background-color: #f04124;
+  color: white;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+
+.title_right2_a2{
+  padding: 5px 8px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+
+.title_right2_a3{
+  background-color: #7b8b8e;
+  padding: 5px 9px;
+  border-radius: 100%;
+  color: white;
+}
+
+
+/*消息栏*/
+.notice_popup{
+  position: absolute;
+  box-shadow: 0px 7px 11px rgba(153,153,153,0.49);
+  width: 225px;
+  padding: 7px 7px;
+  background-color: #fff;
+  top: 40px;
+  left: -20px;
+  visibility: hidden;
+}
+
+
+.popup_top{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.popup_buttom{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 200px;
+  
+}
+
+.popup_buttom .pp{
+  margin-top: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.popup_top .pull-right .a{
+  padding-right: 5px;
+}
+
+
+/**/
+.war_title a{
+  background-color: #e7e7e7;
+}
+
+/*小屏幕的导航*/
+.title_right3{
+  position: relative;
+  border: 2px solid black;
+  border-radius: 100%;
+  padding: 5px 10px;
+  margin-top: 6px;
+  display: none;
+}
+
+.tr-area{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 49px;
+  border-top: 1px solid #ff6633;
+  left:0;
+  right: 0;
+  display: none;
+  padding-bottom:
+
+}
+
+.tr-area2{
+  padding: 15px 0 30px 0;
+}
+
+.tra-a{
+  font-weight: 600;
+}
+
+.tra-button2{
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 0;
+  width: 100%;
+  border: 0px solid;
+  background-color: #f04124;
+  color: white;
+  margin-top: 4px;
+}
+
+.tra-button1{
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 0;
+  width: 100%;
+  border: 0px solid;
+  background-color: #5fcf80;
+  color: white;
+}

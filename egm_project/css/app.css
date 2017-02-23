@@ -1,0 +1,37 @@
+@media only screen and (max-width: 800px){
+  .app_img img{
+    width: 100%;
+  }
+}
+
+
+.thread-app{
+  margin-top: 53px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.thread-app h1{
+  text-align: center;
+  font-size: 2.2em;
+  color: #384047;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.thread-app p{
+  text-align: center;
+  font-size: 15px;
+  color: #384047;
+}
+
+.app_links{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.app_img{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}

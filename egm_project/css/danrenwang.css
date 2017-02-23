@@ -1,0 +1,230 @@
+a{
+	color: #7b8b8e;
+}
+
+.banner{
+	width: 100%;
+	height: 450px;
+	background-color: #5fcf80;
+}
+
+.banner .www{
+	height: 132px;
+}
+
+.banner .area{
+	width: 1108px;
+	margin: auto;
+}
+
+.banner .introduce{
+	width: 44%;
+}
+
+
+.banner .email{
+	width: 45%;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+	border-radius: 2%;
+}
+
+.banner .email p{
+	background-color: #999999;
+	height: 43px;
+	color: white;
+	padding-top: 11px;
+	padding-left: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.password{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.qqq{
+	margin-left: 35px;
+}
+
+.email input{
+	height: 40px;
+}
+
+.email .rank{
+	padding: 5px 0px 5px 36px;
+}
+
+.content_s{
+	width: 1000px;
+	height: 550px;
+	margin: auto;
+}
+
+.content_s .template{
+	width: 500px;
+	margin-top: 52px;
+	height: 210px;
+	background-color: #5fcf80;
+	border-radius: 6px;
+}
+
+.template .rank{
+	width: 200px;
+	height: 200px;
+	background:url(https://asset5.eggman.tv/assets/course_icon-a988d481d1948b152bd0514fee84c8f3d3ca75e20fcfe7aa36eebe1b7c217b0b.png) no-repeat;
+	background-size: 200px 200px;
+	margin: auto;
+}
+
+.content_s .template_1{
+	width: 500px;
+	height: 250px;
+	margin-top: 52px;
+}
+
+.template_1 .rank_1{
+	margin: 50px;
+}
+
+.content_s .template_2{
+	width: 50%;
+	height: 250px;
+}
+
+.template_2 .rank_2{
+	margin: 50px;
+}
+
+.content_s .template_3{
+	width: 50%;
+	height: 210px;
+	background-color: #CC9999;
+	border-radius: 6px;
+}
+
+.template_3 .rank_3{
+	width: 200px;
+	height: 200px;
+	background:url(https://asset5.eggman.tv/assets/course_icon-a988d481d1948b152bd0514fee84c8f3d3ca75e20fcfe7aa36eebe1b7c217b0b.png) no-repeat;
+	background-size: 200px 200px;
+	margin: auto;
+}
+
+.curriculum_back{
+	background-color: #fff;
+}
+
+.curriculum{
+	padding: 80px 0;
+}
+
+
+.curriculum .area{
+	padding: 60px 0;
+}
+
+.curriculum .rank h3{
+	text-align: center;
+}
+
+.yyy{
+	text-align: center;
+	font-size: 57px;
+}
+
+.curriculum .rank{
+	margin-top: 50px;
+}
+
+.video{
+	width: 100%;
+	height: 640px;
+	background-color: #CCCCCC;
+}
+
+.video .kkk{
+	height: 100px;
+}
+
+.video .area{
+	width: 750px;
+	height: 460px;
+	background-color: #fff;
+	margin: auto;
+	border-radius: 6px;
+}
+
+.video .introduce{
+	background-color: #5fcf80;
+	height: 34px;
+	padding-top: 9px;
+	padding-left: 9px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.rank_9{
+  width: 100%;
+  height: 100%;
+  background-color: #5fcf80;
+  padding: 100px 100px;
+}
+
+.area_9{
+  width: 700px;
+  height: 320px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  line-height: 30px;
+}
+
+.area_9 .btn-success{
+  margin-top: 30px;
+}
+
+.shipin{
+	width: 100%;
+	height: 100%;
+	background: url(http://img.k68.cn/k68over2007-10-15/68086/k68_cn_2007112111743_01.jpg) no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.navbar .title .zzz{
+	width: 0px;
+	border-radius: 20px;
+	border: 1px solid #7b8b8e;
+	padding: 5px 12px;
+	margin-top: -7px;
+	visibility: hidden;
+}
+
+.zza{
+	position: absolute;
+}
+
+.uuu{
+	margin-left: 32px;
+	position: relative;
+}
+
+.jjj{
+	left:790px;
+}
+
+
+
+/*.a{
+	width:0;
+	height:0;
+	border-left:25px
+	solid transparent;
+	border-right:25px solid transparent;
+	border-bottom:12px solid red;
+}*/

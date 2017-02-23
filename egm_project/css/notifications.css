@@ -1,0 +1,48 @@
+.wrapper{
+  background-color: #fff;
+  margin-top: 53px;
+}
+
+.wrapper_area{
+  padding: 50px 200px;
+}
+
+.wrapper_area_rank{
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 35px 35px;
+}
+
+.war_title a{
+  padding: 15px;
+}
+
+.war_content{
+  padding: 25px 30px;
+  background-color: #fff;
+  margin-top: 13px;
+}
+
+.war_title .war_a_2{
+  background-color: #fff;
+}
+
+
+
+
+
+.war-booklist{
+  padding: 20px 0;
+}
+
+.war-booklist p{
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+.war_content .a{
+  background-color: #999999;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+}

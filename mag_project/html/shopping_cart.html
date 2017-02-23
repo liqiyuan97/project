@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>购物车</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../Font-Awesome-3.2.1/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../buttons.css">
+  <link rel="stylesheet" type="text/css" href="../css/general.css">
+  <link rel="stylesheet" type="text/css" href="../css/shopping_cart.css">
+</head>
+<body onload="startTime()">
+  <div class="navbar-">
+    <div class="navbar-area clearfix">
+      <div class="pull-left na-left">
+        <div class="logo pull-left">CHUNG DAHM
+          <div class="sanjiao"></div>
+        </div>
+        <div class="pull-right logo-">HELLO</div>
+      </div>
+      <div class="na-right">
+        <i class="pr-i"></i>
+        <a href="../html/manage.html" class="pr-a">管理系统</a>
+        <i class="pr-i"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart">
+  	<div class="content">
+  		<div class="title">
+  			<h1>订单详情</h1>
+  		</div>
+  		<div class="cart-area">
+  			<div class="cart-navbar">
+				 <i class="cart-i"></i>
+  			</div>
+  			<div class="cart-top clearfix">
+	  			<div class="top-left pull-left">
+	  				<span class="span2">商品信息</span>
+	  			</div>
+	  			<div class="top-right pull-right">
+	  				<span class="span1">下单时间</span>
+	  				<span class="span1">数量</span>
+	  				<span class="span1">金额</span>
+	  				<span class="span2">付款人</span>
+	  			</div>
+  			</div>
+  			<div class="Order clearfix">
+  				<img src="../tp/a.jpg" class="Order-img">
+  				<span class="span3">菜品1</span>
+  				<div class="Order-right pull-right">
+  					<div id="txt" class="time">
+            </div>
+  					<span class="span1">1</span>
+  					<span class="span1">00</span>
+  					<select class="form-control">
+              <option>本人</option>
+              <option>张三</option>
+              <option>李四</option>
+              <option>王二</option>
+            </select>
+  				</div>
+  			</div>
+        <div class="buttom">
+          <div class="buttom-txt">
+            <div class="top-right pull-right">
+              <span class="span2">合计 : <span>0.00</span></span>
+            </div>
+          </div>
+          <button class="buttom-submit btn btn-lg btn-success" type="button" value="success">结算</button>
+        </div>
+  		</div>
+  	</div>
+  </div>
+
+
+<script src="../jquery-3.1.1.js"></script>
+<script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/time.js"></script>
+</body>
+</html>
